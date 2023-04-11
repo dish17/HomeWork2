@@ -1,0 +1,60 @@
+ul {
+    list-style: none;
+    width: 600px;
+}
+
+li {
+    padding-left: 25px;
+}
+
+li:nth-child(odd) {
+    background-color: rgba(111, 231, 231, 0.877);
+}
+
+li:nth-child(even) {
+    background-color: rgb(87, 224, 224);
+}
+
+p {
+    margin-left: 10px;
+    margin-right: 10px;
+    display: inline-block;
+    font-size: large;
+    margin-right: 25px;
+}
+
+.container {
+    display: block;
+}
+
+.container .check {
+    opacity: 0;
+
+}
+
+.highload {
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+}
+
+
+
+.highload::after {
+    content: "";
+    display: none;
+}
+
+.container .check:checked~.highload::after {
+    display: contents;
+}
+
+.container .highload::after {
+
+    content: url(checked_16.png);
+}
+
+.container .highload::before {
+    content: url(unchecked_16.png);
+}

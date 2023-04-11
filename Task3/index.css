@@ -1,0 +1,39 @@
+h1 {
+    font-size: 25px;
+    font-weight: bolder;
+    padding-top: 20px;
+}
+
+h3 {
+    font-weight: 400;
+}
+
+dt {
+    font-style: italic;
+    font-size: 13px;
+}
+
+dd {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.citata {
+    color: rgb(87, 82, 82);
+}
+
+.selected {
+    color: blue;
+
+}
+
+.darkcit {
+    color: rgb(49, 47, 47);
+    font-size: 15px;
+    font-weight: 700;
+}
+
+body {
+    background-color: rgba(128, 128, 128, 0.329);
+    padding-bottom: 20px;
+}

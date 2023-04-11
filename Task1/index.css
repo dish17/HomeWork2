@@ -1,0 +1,60 @@
+.List {
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(347, 72%, 78%);
+    color: white;
+    font-size: 18px;
+    padding-right: 25px;
+    list-style: none;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+
+.List>li {
+    background-color: #c66377;
+    margin-bottom: 15px;
+    height: 40px;
+
+}
+
+.List>li>p {
+    display: inline-block;
+
+    background-color: #a0344a;
+    font-size: 24px;
+    height: 40px;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: center;
+    color: white;
+    font-weight: 400;
+}
+
+.num {
+    font-size: 21px;
+    margin-right: 10px;
+    margin-left: 15px;
+    vertical-align: top;
+}
+
+.item1 {
+    width: 80px;
+
+}
+
+.item2 {
+    width: 90px;
+}
+
+.item3 {
+    width: 120px;
+}
+
+.item4 {
+    width: 65px;
+}
+
+.item5 {
+    width: 85px;
+}
